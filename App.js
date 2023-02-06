@@ -74,7 +74,7 @@ const App = () =>{
   return(
     <View>
       <Text style={{ fontSize: 30 }}>Handle text input</Text>
-      <Text style={{ fontSize: 30 }}>your name {name}</Text>
+      <Text style={{ fontSize: 30 }}>enter your name {name}</Text>
       <TextInput style={style.TextInput}
       placeholder='enter your'
       value={name}
